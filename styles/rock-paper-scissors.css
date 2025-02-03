@@ -1,0 +1,79 @@
+body {
+    font-family: Roboto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(71, 140, 219);
+}
+
+div {
+    margin-top: 20px;
+    background-color: white;
+    width: 400px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px;
+}
+
+.choice {
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: rgb(71, 111, 240);
+    border: none;
+    transition: 0.1s;
+    cursor: pointer;
+    position: relative;
+}
+
+.choice:hover {
+    opacity: 0.8;
+    right: 3px;
+    bottom: 3px;
+    box-shadow: 5px 5px 15px grey;
+}
+
+.choice:active {
+    opacity: 0.6;
+    right: 0px;
+    bottom: 0px;
+}
+
+.choice:disabled {
+    background-color: grey;
+}
+.choice:disabled:hover {
+    cursor: not-allowed;
+    color: grey;
+    right: 0px;
+    bottom: 0px;
+    box-shadow: 0 0 0;
+}
+
+#restartBtn {
+    padding: 9px;
+    width: 340px;
+    background-color: rgb(71, 111, 240);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.1s;
+    position: relative;
+}
+
+#restartBtn:hover {
+    box-shadow: 5px 5px 20px grey;
+    opacity: 0.8;
+    right: 2px;
+    bottom: 2px;
+}
+
+#restartBtn:active {
+    opacity: 0.6;
+    right: 0px;
+    bottom: 0px;
+}
