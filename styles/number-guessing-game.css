@@ -1,0 +1,61 @@
+body {
+    font-family: Roboto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(71, 140, 219);
+}
+
+div {
+    margin-top: 20px;
+    background-color: white;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px;
+}
+
+#mystery {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 120px;
+}
+
+#guess {
+    width: 125px;
+    padding:   8px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+#submitBtn {
+    padding: 9px;
+    background-color: rgb(71, 111, 240);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.1s;
+    position: relative;
+}
+
+#submitBtn:hover {
+    box-shadow: 5px 5px 20px grey;
+    opacity: 0.8;
+    right: 2px;
+    bottom: 2px;
+}
+
+#submitBtn:active {
+    opacity: 0.6;
+    right: 0px;
+    bottom: 0px;
+}
+
+#result {
+    margin-bottom: 0px;
+}
