@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Roboto;
+    src: url("/assets/fonts/roboto.woff2") format("woff2");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+nav {
+    font-variation-settings: "wght" 500;
+    font-size: 20px;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.headers {
+    font-family: Roboto;
+    font-variation-settings: "wght" 700;
+    display: block;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    font-variation-settings: "wght" 700;
+}
